@@ -17,7 +17,16 @@
     <a class="side-link" href="projects.php">
       <i class="bi bi-kanban"></i><span class="label">Projects</span>
     </a>
-
+    <!-- NEW: Office Locations -->
+<a class="side-link" data-bs-toggle="collapse" href="#menuOffices" role="button" aria-expanded="false">
+  <i class="bi bi-building"></i><span class="label">Offices</span>
+  <span class="ms-auto label"><i class="bi bi-chevron-down"></i></span>
+</a>
+<div class="collapse ps-2" id="menuOffices">
+  <a class="side-link" href="add-office.php"><i class="bi bi-plus-circle"></i><span class="label">Add Office</span></a>
+  <a class="side-link" href="manage-offices.php"><i class="bi bi-building"></i><span class="label">Manage Offices</span></a>
+  <a class="side-link" href="office-locations.php"><i class="bi bi-map"></i><span class="label">Office Locations</span></a>
+</div>
     <!-- Employees -->
     <a class="side-link" data-bs-toggle="collapse" href="#menuEmployees" role="button" aria-expanded="false">
       <i class="bi bi-person-badge"></i><span class="label">Employees</span>

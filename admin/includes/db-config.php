@@ -2,7 +2,7 @@
 // includes/db-config.php
 // Database configuration constants
 
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'srv1740.hstgr.io');
 define('DB_USER', 'u966043993_tekc1');
 define('DB_PASS', 'Ariharan@2025');
 define('DB_NAME', 'u966043993_tekc1');

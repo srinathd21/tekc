@@ -38,6 +38,10 @@
     </a>
 
     <div class="collapse ps-2" id="menuAttendance">
+      <a class="side-link" href="punchin.php">
+        <i class="bi bi-fingerprint"></i><span class="label">Attendance</span>
+      </a>
+     
       <a class="side-link" href="attendance.php">
         <i class="bi bi-clock-history"></i><span class="label">Manage Attendance</span>
       </a>

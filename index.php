@@ -25,7 +25,7 @@ function roleRedirectPath(array $emp): string {
   $department  = norm($emp['department'] ?? '');
 
   // top management
-  if (in_array($designation, ['director', 'vice president', 'general manager'], true)) {
+  if (in_array($designation, ['director', 'Director', 'vice president', 'general manager'], true)) {
     return 'admin/';
   }
 
